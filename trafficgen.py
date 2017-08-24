@@ -5,7 +5,7 @@ import sys
 if __name__ == "__main__":
     conf = None
     try:
-        conf = CONF(r'trafficgen.conf')
+        conf = CONF(r'./trafficgen.conf')
     except Exception as e:
         print e
         sys.exit(1)
